@@ -1,0 +1,21 @@
+{
+  "name": "portfoliojs",
+  "version": "1.0.0",
+  "description": "Open source portfolio web app built in reactjs, redux, jest, sass, nodejs, hapijs. Feel free to contribute",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "reactjs",
+    "redux",
+    "jest",
+    "sass",
+    "nodejs",
+    "hapijs",
+    "html5",
+    "Javascript"
+  ],
+  "author": "Temitayo Ogunlolu",
+  "license": "MIT"
+}
