@@ -17,5 +17,13 @@
     "Javascript"
   ],
   "author": "Temitayo Ogunlolu",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/temilolu/Portfoliojs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/temilolu/Portfoliojs/issues"
+  },
+  "homepage": "https://github.com/temilolu/Portfoliojs#readme"
 }
