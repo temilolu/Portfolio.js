@@ -1,0 +1,30 @@
+.page{
+    padding-bottom: 50px;
+
+    &--title{
+        padding: 50px;
+    }
+
+    &--content{
+       padding: 0 50px;        
+    }
+
+    &--box{
+        min-height: 200px;
+        background: $white;
+        border-color: rgba(0, 39, 69, 0.11);
+        overflow: hidden;
+        position: relative;
+        z-index: 1;
+        margin-top: 30px; 
+        padding: 5px;
+        text-align: justify;
+        font-size: 18px;
+
+        h4{
+            color: $blue;
+        }
+    }
+
+    
+}

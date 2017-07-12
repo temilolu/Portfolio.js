@@ -1,0 +1,35 @@
+// Text Styles
+
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css';
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+html {
+    font-size: 62.5%;
+    // @include screen(small) {
+    //     font-size: 58%;
+    // }
+}
+
+body {
+    color: $body-text-color;
+    -webkit-font-smoothing: antialiased;
+    font-family: $regular-font;
+    font-size: 1.6rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: #003767;
+    font-family:$bold-font
+}
+
+p{
+    font-weight: 100;
+}
