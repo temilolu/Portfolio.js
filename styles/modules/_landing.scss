@@ -1,23 +1,75 @@
+.banner{
+    background-color: $white;
+    min-height: 500px;
+    padding:0 50px;    
+}
+
+.layout{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        margin-left: -24px;
+}
+
+.position--relative {
+    position: relative !important;
+}
+
+.z-20 {
+    z-index: 20;
+}
+
+.layout__item {
+    display: inline-block;
+    padding-left: 24px;
+    vertical-align: top;
+    width: 100%;
+}
+
+.top-pattern, .top-background {
+  height: 500px;
+  overflow: hidden; 
+}
+
+.top-pattern {
+  background-image: url('../img/pattern.jpeg');
+  background-size: cover;
+  }
+
+.one-sixth, .two-twelfths {
+    width: 16.666% !important;
+}
+
+.five-sixths, .ten-twelfths {
+    width: 83.333% !important;
+}
+
+
 .profile{
-    padding: 50px;
+    padding: 30px;
+    background: $white;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 1.5rem;
 
     &--img{
-        width: 13em;
-        height: 13em;
-        border: 2px solid $lighter-gray;
+        width: 10em;
+        height: 10em;
+        border: 2px solid $gray;
         border-radius: 100%;
-        float: left;
-        margin-right: 5rem;
+        // margin-right: 5rem;
         margin-top: 1.5rem;
-    }
+        margin: 0 auto;
+    }  
+}
 
-    &--bio{
-        
-    }
+.bio{
+       margin-top: 15em; 
+       color: $white;
 }
 
 .project{
-    padding:50px;
+    padding:50px 0 50px 0;
 
     &--box{
         min-height: 400px;
@@ -48,7 +100,7 @@
              }
 
              span{
-                 background: $blue;
+                 background: $dark-blue;
                  padding: 5px;
                  color: $white;
              }
