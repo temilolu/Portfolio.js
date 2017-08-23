@@ -4,27 +4,31 @@
             "FullName": "Temitayo Ogunlolu",
             "JobTitle": "React",
             "Bio": "I build usable user interfaces and craft digital products to elevate user experience with Html Css Javascript DOM",
-            "projects": [
-                {
+            "projects": {
+
+                "project1" : {
                     "title": "portfolio",
                     "img": "img.jpg",
                     "disc": "Open source portfoliojs platform",
                     "tags": ["javascript", "react", "node"]
                 },
-                {
+
+                "project2":{
                     "title": "portfolio",
                     "img": "img.jpg",
                     "disc": "Open source portfoliojs platform",
                     "tags": ["javascript", "react", "node"]
                 },
-                {
+               "project3": {
                     "title": "portfolio",
                     "img": "img.jpg",
                     "disc": "Open source portfoliojs platform",
                     "tags": ["javascript", "react", "node"]
-                }
+                 }
                 
-            ]
+            }
+                
+            
         }
     ]
 }

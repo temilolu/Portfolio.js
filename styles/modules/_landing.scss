@@ -32,7 +32,7 @@
 }
 
 .top-pattern {
-  background-image: url('../img/pattern.jpeg');
+  background-image: url('/pattern.jpeg');
   background-size: cover;
   }
 
@@ -72,28 +72,34 @@
     padding:50px 0 50px 0;
 
     &--box{
-        min-height: 400px;
+        height: 300px;
         background: $lighter-gray;
         border-color: rgba(0, 39, 69, 0.11);
         border-radius: 5px;
         border-style: solid;
         border-width: 1px;
         box-shadow: 0 4px 7px rgba(0, 33, 60, 0.04);
-        overflow: hidden;
+        
         position: relative;
         z-index: 1;
-        margin-top: 30px;
+        margin: 10px;
+        padding: 20px;
 
          &--image{
             height: 220px;
-        }
+            }
 
         &--title{
-             height: 180px;
-             border-top: 1px solid #eee; 
+             min-height: 100px;
              background: $white;
-             padding: 0 5px 10px 10px;
-             overflow: hidden;
+            //  padding: 0 5px 10px 10px;
+             
+
+             p{
+               height: 100px;
+               overflow: hidden;
+
+             }
 
              li{
                  padding-bottom: 13px;
