@@ -56,7 +56,7 @@ class Landing extends Component{
                         <div className="container">                
                               <div className="project"> 
                                     <h4>Some of my works</h4>
-                                    <span>Open-source on Design, data science and engineering projects</span>
+                                    <span>Open-source on UI Designs, Data science and Javascript engineering projects</span>
                                     <hr/>
                                     
                                     <div className="row">

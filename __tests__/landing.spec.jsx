@@ -1,4 +1,7 @@
 import React from 'react';
-import renderer from 'react-test-renderer';
+import TestUtils from 'react-addons-test-utils';
 import Landing from '../src/components/Landing';
 
+test('works', () => {
+    expect(true).toBe(true)
+})
