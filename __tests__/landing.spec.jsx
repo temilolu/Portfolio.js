@@ -1,7 +1,7 @@
 import React from 'react';
-import TestUtils from 'react-addons-test-utils';
+import { shallow } from 'enzyme';
 import Landing from '../src/components/Landing';
 
-test('works', () => {
-    expect(true).toBe(true)
+test('Should Display repo name ', () => {
+  
 })

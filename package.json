@@ -9,8 +9,9 @@
     "build:dev": "webpack -d",
     "dev": "NODE_ENV=development nodemon server.js",
     "start": "webpack-dev-server --content-base",
-    "test": "NODE_ENV=test jest",
-    "test:update": "NODE_ENV=test jest -u"
+    "test": "NODE_ENV=test jest --coverage",
+    "test:update": "NODE_ENV=test jest -u",
+    "coverage": "open coverage/lcov-report/index.html"
   },
   "keywords": [
     "reactjs",
@@ -37,6 +38,7 @@
     "cors": "2.8.3",
     "css-loader": "^0.28.4",
     "express": "4.15.3",
+    "jest-cli": "^20.0.4",
     "prop-types": "^15.5.10",
     "react": "^15.6.1",
     "react-addons-perf": "15.4.2",
@@ -61,7 +63,7 @@
     "babel-plugin-transform-es2015-modules-commonjs": "6.24.1",
     "babel-preset-env": "1.5.1",
     "babel-preset-react": "6.24.1",
-    "enzyme": "2.8.2",
+    "enzyme": "^2.9.1",
     "eslint": "^4.2.0",
     "eslint-config-airbnb": "15.0.1",
     "eslint-config-prettier": "2.1.1",

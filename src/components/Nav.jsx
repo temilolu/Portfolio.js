@@ -6,7 +6,6 @@ const Nav = () => {
         <nav className="top-bar">
             <ul className="list-inline">
                 <li><Link to="/">Home</Link></li>
-                <li><Link to="/resume">Resume</Link></li>
             </ul> 
         </nav>
     );

@@ -12,35 +12,36 @@ class Landing extends Component{
 
       constructor(props){
             super(props);
-            // getinitialState
-            this.state = {
-                  profile: {
-                      name: "Temitayo Ogunlolu",
-                      job: "UX designer & Front-end Engineer",
-                      image: "",
-                      bio: "Building pixel perfect websites and creating digital magic to elevate user experience to the next level."
-                  },
-                 projects:[]
-            };
+
+            this.state = {};
       }
 
-      // componentDidMount(){
-      //       Project.fetch().then(projects => {
-      //             this.setState({ projects })
-      //       })
-      // }
+      componentDidMount(){
+            fetch('https://api.github.com/users/temilolu')
+            .then(response => response.json())
+            .then(user => this.setState({ user:user }))
+        }
 
       render(){
+
+            // If the state doesn't have a user key, it means the AJAX didn't complete yet. Simply render a LOADING indicator.
+            if (!this.state.user) {
+                  return (<div className="user-page">LOADING...</div>);
+            }
+
+            // If we get to this part of `render`, then the user is loaded
+            const user = this.state.user;
+
             return(
                   <main id="site-wrapper">
                         <section className="banner">
                                <div className="container">
                                      <div className="row position--relative z-20">
                                           <Nav />
-                                          <ProfileCard name={this.state.profile.name} job={this.state.profile.job} image={this.state.profile.image}/>
+                                          <ProfileCard name={user.name} job="Frontend engineer" image={user.avatar_url}/>
                                           <div className="col-md-8">
                                                 <div className="bio">
-                                                      <h3>{this.state.profile.bio}</h3>
+                                                      <h3>{user.bio}</h3>
                                                       <p><Link to="/about">Learn more about me <i className="fa fa-long-arrow-right" aria-hidden="true"></i></Link></p>
                                                 </div>
                                           </div>
@@ -56,7 +57,7 @@ class Landing extends Component{
                         <div className="container">                
                               <div className="project"> 
                                     <h4>Some of my works</h4>
-                                    <span>Open-source on UI Designs, Data science and Javascript engineering projects</span>
+                                    <span>Through my open-source journey of becoming world-class</span>
                                     <hr/>
                                     
                                     <div className="row">
@@ -65,11 +66,11 @@ class Landing extends Component{
                               
                               </div> 
 
-                               <Pagination />
+                             
                         </div>
 
                           
-                         <Footer name={this.state.profile.name}/>
+                         <Footer name={user.name}/>
                   </main>
             );
       }

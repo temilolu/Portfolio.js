@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should Display User name and job  1`] = `
+<div
+  className="col-md-4"
+>
+  <div
+    className="profile"
+  >
+    <div
+      className="profile--img"
+    >
+      <img
+        alt="ProfileCard"
+      />
+    </div>
+    <div
+      className="profile--bio"
+    >
+      <h2>
+        ProfileCard
+      </h2>
+      <h4 />
+      <ul
+        className="list-inline"
+      >
+        <li>
+          <a
+            href=""
+          >
+            <i
+              aria-hidden="true"
+              className="fa fa-twitter"
+            />
+          </a>
+        </li>
+        <li>
+          <a
+            href=""
+          >
+            <i
+              aria-hidden="true"
+              className="fa fa-github"
+            />
+          </a>
+        </li>
+        <li>
+          <a
+            href=""
+          >
+            <i
+              aria-hidden="true"
+              className="fa fa-medium"
+            />
+          </a>
+        </li>
+        <li>
+          <a
+            href=""
+          >
+            <i
+              aria-hidden="true"
+              className="fa fa-linkedin-square"
+            />
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;

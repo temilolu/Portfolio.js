@@ -10,6 +10,16 @@ main#site-wrapper {
     
 }
 
+.content{
+    min-height: 700px;
+    padding-top: 50px;
+
+    p{
+        font-size: 20px;
+        text-align: justify;
+    }
+}
+
 .right{
     float: right;
 }
