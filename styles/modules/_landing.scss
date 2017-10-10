@@ -5,7 +5,7 @@
 }
 
 .banner-2{
-    background-color: $dark-blue;
+    background-color: $blue;
     max-height: 100px;
     padding:0 50px;    
 }
@@ -44,11 +44,13 @@
   }
 
 .one-sixth, .two-twelfths {
-    width: 16.666% !important;
+    width: 20% !important;
+    // height: 100%;
+    
 }
 
 .five-sixths, .ten-twelfths {
-    width: 83.333% !important;
+    width: 80% !important;
 }
 
 
@@ -70,7 +72,7 @@
 }
 
 .bio{
-       margin-top: 15em; 
+       margin-top: 14.2em;
        color: $white;
 }
 

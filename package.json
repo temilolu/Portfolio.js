@@ -6,7 +6,7 @@
   "scripts": {
     "watch": "webpack --watch",
     "build": "webpack -p",
-    "build:dev": "webpack -d",
+    "builddev": "webpack -d",
     "dev": "NODE_ENV=development nodemon server.js",
     "start": "webpack-dev-server --content-base",
     "test": "NODE_ENV=test jest --coverage",

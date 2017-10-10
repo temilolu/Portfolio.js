@@ -44,6 +44,8 @@ class Landing extends Component{
                                                       <h3>{user.bio}</h3>
                                                       <p><Link to="/about">Learn more about me <i className="fa fa-long-arrow-right" aria-hidden="true"></i></Link></p>
                                                 </div>
+
+                                              
                                           </div>
                                      </div>
 
@@ -55,17 +57,16 @@ class Landing extends Component{
                          </section>
 
                         <div className="container">                
-                              <div className="project"> 
-                                    <h4>Some of my works</h4>
-                                    <span>Through my open-source journey of becoming world-class</span>
-                                    <hr/>
-                                    
-                                    <div className="row">
-                                          <Project/>
-                                    </div>
-                              
-                              </div> 
-
+                            
+                        <div className="project"> 
+                        <h4>Some of my open-source works</h4>
+                        <hr/>
+                        
+                        <div className="row">
+                              <Project/>
+                        </div>
+                  
+                  </div> 
                              
                         </div>
 

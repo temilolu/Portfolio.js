@@ -513,7 +513,7 @@ main#site-wrapper {
   position: absolute;
   top: 0px;
   right: 0px;
-  background-color: #041725; }
+  background-color: #005fd5; }
 
 a {
   color: inherit;
@@ -533,7 +533,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: "Boing", sans-serif; }
+  font-family: "Graphik", sans-serif; }
 
 p {
   font-weight: 100; }
@@ -643,9 +643,9 @@ button,
 
 footer {
   padding: 50px;
-  background-color: #041725;
+  background-color: #ffffff;
   min-height: 200px;
-  color: #ffffff; }
+  color: #005fd5; }
 
 .banner {
   background-color: #ffffff;
@@ -653,7 +653,7 @@ footer {
   padding: 0 50px; }
 
 .banner-2 {
-  background-color: #041725;
+  background-color: #005fd5;
   max-height: 100px;
   padding: 0 50px; }
 
@@ -684,10 +684,10 @@ footer {
   background-size: cover; }
 
 .one-sixth, .two-twelfths {
-  width: 16.666% !important; }
+  width: 20% !important; }
 
 .five-sixths, .ten-twelfths {
-  width: 83.333% !important; }
+  width: 80% !important; }
 
 .profile {
   padding: 30px;
@@ -704,7 +704,7 @@ footer {
     margin: 0 auto; }
 
 .bio {
-  margin-top: 15em;
+  margin-top: 14.2em;
   color: #ffffff; }
 
 .project {
