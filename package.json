@@ -7,8 +7,9 @@
     "watch": "webpack --watch",
     "build": "webpack -p",
     "builddev": "webpack -d",
-    "dev": "NODE_ENV=development nodemon server.js",
-    "start": "webpack-dev-server --content-base",
+    "dev": "webpack-dev-server --content-base",
+    "postinstall": "webpack -p",
+    "start": "node server.js",
     "test": "NODE_ENV=test jest --coverage",
     "test:update": "NODE_ENV=test jest -u",
     "coverage": "open coverage/lcov-report/index.html"
