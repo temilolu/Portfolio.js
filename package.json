@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Open source portfolio web app built in reactjs, redux, jest, sass, nodejs, hapijs. Feel free to contribute",
   "main": "index.js",
+  "engines": {
+    "node": "6.11.1",
+    "npm": "2.1.x"
+  },
   "scripts": {
     "watch": "webpack --watch",
     "build": "webpack -p",
