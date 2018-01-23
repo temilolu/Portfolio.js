@@ -526,7 +526,8 @@ body {
   color: #003767;
   -webkit-font-smoothing: antialiased;
   font-family: "Graphik", sans-serif;
-  font-size: 1.6rem; }
+  font-size: 1.6rem;
+  background: #E5E5E4; }
 
 h1,
 h2,
