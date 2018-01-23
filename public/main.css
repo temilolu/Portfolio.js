@@ -680,7 +680,7 @@ footer {
   overflow: hidden; }
 
 .top-pattern {
-  background-image: url("/pattern.jpeg");
+  background-image: url("http://res.cloudinary.com/djh2j7sra/image/upload/v1516720846/pattern_ddlux4.jpg");
   background-size: cover; }
 
 .one-sixth, .two-twelfths {
