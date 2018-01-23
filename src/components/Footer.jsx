@@ -10,7 +10,7 @@ const Footer = (props) => (
                     <h2>{props.name}</h2>
 
                     <p>I love open source and this is my way of contributing to the open source community in Africa. Lisence MIT </p>
-                    <p>©2017 Temitayo.me</p>
+                    <p>©2018 Temitayo.me</p>
                 </div>
 
                 <div className="col-md-6"> </div>
